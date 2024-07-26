@@ -1,0 +1,178 @@
+<style>
+    body {
+        margin: 0;
+    }
+
+    .header {
+        display: flex;
+        width: 1200px;
+        align-items: center;
+        margin: 0 auto
+    }
+
+    .three {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .top {
+        margin-left: 0px;
+        background-color: #c49100;
+
+    }
+
+    .second {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .bar {
+        display: flex;
+        background-color: #484545;
+        padding: 4px 130px;
+        justify-content: space-between;
+    }
+
+    .four {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .five {
+        display: flex;
+        justify-content: center;
+        color: rgb(119, 35, 35);
+
+    }
+
+    .nav {
+        margin-left: 50px;
+    }
+
+    .hamburger {
+        font-size: 50px;
+    }
+
+    .item {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #333;
+        padding: 35px 35px 25px 35px;
+    }
+
+    .item1 {
+        font-size: 1.0rem;
+        font-weight: bold;
+        color: #fbf8f8;
+        padding: 35px 35px 25px 130px;
+    }
+
+    .item2 {
+        font-size: 1.0rem;
+        color: #424040;
+        padding: 20px 20px 20px 20px;
+        margin-left: 30px;
+    }
+
+    .item3 {
+        font-size: 1.0rem;
+        font-weight: bold;
+        color: #f6f4f4;
+
+    }
+
+    .six {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .show {
+        width: 1000px;
+    }
+
+    .btn.selected {
+        border: 1px solid transparent;
+        background: #ca4f0f;
+        color: #ffffff;
+        font-size: 1rem;
+        width: 28px;
+        height: 28px;
+    }
+
+    .btn {
+        border: 1px solid #999;
+        width: 28px;
+        height: 28px;
+        color: #666;
+    }
+
+    .order-ticket {
+        width: 100px;
+        border-bottom: 4px solid #ca4f0f;
+        padding-bottom: 10px;
+    }
+</style>
+
+
+<html>
+
+<head>
+    <title> 台灣高鐵 |Taiwan High Speed Rail
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <h1>
+        Hello world!
+    </h1>
+    <div class="top">
+        <span class="item1">△營運班表調整|南港－左營區間，因天氣導致營運班表調整</span>
+    </div>
+    <div class="three">
+        <div class="second">
+            <span class="item2">網站導覽│企業永續發展│投資人關係│公司治理</span>
+            <div class="item2">
+                <button class="btn selected">A</button>
+                <button class="btn">A</button>
+            </div>
+            <span class="item2">𖤓繁體中文</span>
+        </div>
+    </div>
+
+    <div class="header">
+
+
+        <img class="logo" src="./logo.svg" />
+        <div class="nav">
+            <span class="item">購票資訊</span>
+            <span class="item">乘車指南</span>
+            <span class="item">搭高鐵・遊台灣</span>
+            <span class="item">關於高鐵</span>
+        </div>
+    </div>
+    <div class="bar">
+        <div class="item3">首頁 ⟩購票資訊⟩如何購票⟩網路訂票</div>
+        <div class="item3">列印本頁</div>
+
+    </div>
+    <div class="four">
+        <h1>
+            網路訂票
+        </h1>
+        <div class="order-ticket">
+        </div>
+    </div>
+    <div class="six">
+        <img class="show" src="./show.jpg" alt="">
+    </div>
+</body>
+
+</html>
