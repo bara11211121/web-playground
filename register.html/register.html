@@ -8,10 +8,10 @@
 </head>
 <body>
     <h2 id="head">註冊會員</h2>
-    <p>使用者名稱: <input type="text" id="content"></p>
-    <p>登入帳號：<input type="text" id="content1"></p>
-    <p>登入密碼： <input type="text" id="content2"></p>
-    <button onclick="myFunction()">送出</button>     <button>清除</button>
+    <p>使用者名稱: <input type="text" id="userName"></p>
+    <p>登入帳號：<input type="text" id="name"></p>
+    <p>登入密碼： <input type="text" id="password"></p>
+    <button type="button" id="send">送出</button>     <button>清除</button>
 
 
     
@@ -19,8 +19,18 @@
 </html>
 
 <script>
-    function myFunction(){
-        alert('hello');
+    const userName = document.getElementById("userName");
+    const userNameValue = userName.value;
+    const name = document.getElementById("name");
+    const nameValue = name.value;
+    const password = document.getElementById("password");
+    const passwordValue = password.value;
 
+
+    document.getElementById('send').onclick = function(){
+        alert('名稱：' + userNameValue+'\n帳號：' + nameValue + '\n密碼：' + passwordValue
+    )
     }
+
+    
 </script>
